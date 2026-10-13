@@ -1,0 +1,10 @@
+*.vmdk
+*.vdi
+*.ova
+*.iso
+*.pcap
+*.key
+*.pem
+.env
+passwords.txt
+.DS_Store
