@@ -32,7 +32,6 @@ Each VM has two adapters: NAT (updates and installs) and Host-only (all lab traf
 - [ ] [03 Deploy Agent on Endpoint](checklists/03-agent.md)
 - [ ] [04 Run Attack Scenarios](checklists/04-attacks.md)
 - [ ] [05 Detect and Triage](checklists/05-triage.md)
-- [ ] [06 Report and Publish](checklists/06-publish.md)
 
 ## Repo Structure
 ```
