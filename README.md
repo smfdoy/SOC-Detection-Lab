@@ -45,10 +45,9 @@ soc-detection-lab/
 ```
 
 ## Results
-_Fill in after Phase 5. Example: "Detected 5 of 5 simulated attacks and documented each with an incident report and ATT&CK mapping."_
 
 ## What I Learned
-_2 to 4 short bullets in your own words._
+
 
 ## Disclaimer
 All activity was performed on systems I own, inside an isolated lab network.
