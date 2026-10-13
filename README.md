@@ -1,6 +1,6 @@
 # SOC Detection Lab: Wazuh SIEM + Kali Linux
 
-Entry-level SOC home lab. I attack a lab endpoint from Kali Linux, detect the activity in Wazuh, triage the alerts, and write incident reports mapped to MITRE ATT&CK.
+SOC home lab. I attack a lab endpoint from Kali Linux, detect the activity in Wazuh, triage the alerts, and write incident reports mapped to MITRE ATT&CK.
 
 ## Goal
 Show the full SOC loop: attack, detect, investigate, document.
