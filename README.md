@@ -30,15 +30,6 @@ Each VM has two adapters: NAT (updates and installs) and Host-only (all lab traf
 - [ ] [04 Run Attack Scenarios](checklists/04-attacks.md)
 - [ ] [05 Detect and Triage](checklists/05-triage.md)
 
-## Repo Structure
-```
-soc-detection-lab/
-  README.md
-  checklists/   step by step checklists
-  configs/      sanitized config snippets (no passwords)
-  docs/         detection log, incident reports
-  evidence/     screenshots
-```
 
 ## Results
 Detected 4 of 5 simulated attacks (SSH brute force, new account creation, file integrity change, and sudo use), all correctly flagged as true positives by Wazuh’s default ruleset. The port scan was a missed detection, which highlighted a real gap between host-based and network-based monitoring, documented in the detection log with a recommended fix (Suricata)
