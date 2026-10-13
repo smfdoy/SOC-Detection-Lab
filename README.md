@@ -45,9 +45,13 @@ soc-detection-lab/
 ```
 
 ## Results
+Detected 4 of 5 simulated attacks (SSH brute force, new account creation, file integrity change, and sudo use), all correctly flagged as true positives by Wazuh’s default ruleset. The port scan was a missed detection, which highlighted a real gap between host-based and network-based monitoring, documented in the detection log with a recommended fix (Suricata)
 
 ## What I Learned
-
+- Wazuh’s out-of-box rules caught most common attack patterns without custom tuning
+- Host-based agents have blind spots, network-level attacks like port scans need a complementary tool
+- Alert severity levels map to real risk, persistence (new account) was rated higher than a single failed login, which matches how a SOC would prioritize
+- Writing incident reports clarified the difference between detecting something and fully explaining its impact and response
 
 ## Disclaimer
 All activity was performed on systems I own, inside an isolated lab network.
