@@ -23,9 +23,6 @@ Each VM has two adapters: NAT (updates and installs) and Host-only (all lab traf
 | 4 | File change in a monitored folder | File integrity monitoring alert | T1565.001 Stored Data Manipulation |
 | 5 | Sudo use by a low-privilege user | Sudo command alerts | T1548.003 Sudo and Sudo Caching |
 
-## New to this? Start here
-[Beginner step-by-step guide](docs/step-by-step-guide.md)
-
 ## Phases (follow in order)
 - [ ] [01 Setup VMs and Network](checklists/01-setup.md)
 - [ ] [02 Install Wazuh Server](checklists/02-wazuh-server.md)
